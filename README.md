@@ -1,2 +1,89 @@
-# netflix-kcontent-data-visualization
-Interactive data storytelling webpage exploring global Netflix rankings and K-content longevity across countries and continents
+# Netflix K-Content Data Visualization
+
+Netflix 글로벌 Top 10 데이터를 활용하여 **K-콘텐츠가 어느 지역에서 더 넓게 진입하고, 더 오래 순위권에 생존하는지** 탐색한 데이터 시각화·스토리텔링 프로젝트입니다.
+
+복잡한 예측 모델링보다 데이터 선정, 가공 지표 설계, 시각적 표현과 정보 흐름 구성에 초점을 두었습니다. 완성 결과물은 하나의 인터랙티브 데이터페이지로 구현하였습니다.
+
+## 프로젝트 질문
+
+> K-콘텐츠는 세계 여러 국가에 진입하고 있지만, 실제로 **오래 살아남는 지역과 작품은 어디인가?**
+
+단순 진출 국가 수만 비교하지 않고 다음 두 관점을 함께 살펴보았습니다.
+
+- **Breadth**: 얼마나 많은 국가에 진입했는가
+- **Longevity**: 각 국가의 Top 10에서 얼마나 오래 생존했는가
+
+이를 바탕으로 대륙 → 국가 → 콘텐츠 → 콘텐츠×대륙 순으로 분석 단위를 좁혀가며 데이터 스토리를 구성하였습니다.
+
+## Data Story
+
+웹페이지는 다음 흐름으로 구성되어 있습니다.
+
+1. **대륙별 진출 국가 수 × 평균 생존 주차**
+2. **대륙별 평균 생존 주차 비교**
+3. **국가별 K-콘텐츠 순위권 누적 주차 TOP 10**
+4. **글로벌 롱런 K-콘텐츠 비교**
+5. **주요 콘텐츠 × 대륙별 누적 생존 주차**
+6. **대륙별 소비 지표 비교**
+7. **지역별 소비 특성을 바탕으로 한 전략적 해석**
+
+페이지의 핵심 메시지는 **콘텐츠가 많이 진입한 지역과 오래 살아남는 지역은 반드시 같지 않다**는 점입니다.
+
+## 주요 데이터셋
+
+원천 자료는 **Netflix Tudum Top 10 공식 데이터**를 사용하였으며, 분석 목적에 맞게 K-콘텐츠를 선별하고 국가·대륙·콘텐츠 수준의 요약 데이터를 생성하였습니다.
+
+| File | Unit | Rows | 주요 내용 |
+| --- | --- | ---: | --- |
+| `k_content_continent_summary_final.csv` | 대륙 | 6 | 진출 국가 수, 평균 콘텐츠 수, 평균 생존 주차, 누적 국가-주 |
+| `k_content_country_summary_final.csv` | 국가 | 94 | 국가별 K-콘텐츠 수, 누적 순위권 주차, 평균 생존 주차 |
+| `k_content_country_level_final.csv` | 국가 × 콘텐츠 | 3,265 | 첫/마지막 진입 주, 최고 순위, 평균 순위, Top 10 생존 주차 |
+| `k_content_top15_longrun_final.csv` | 콘텐츠 | 15 | 진입 국가 수, 글로벌 누적 주차, 평균·최대 생존 주차 |
+
+원본 `country_weekly` Excel 파일은 크기가 크고 원천 데이터 자체이므로 공개 저장소에는 포함하지 않고, 재현 가능한 가공 결과 CSV만 제공합니다.
+
+## 확인된 주요 패턴
+
+- **아시아**는 평균 생존 주차가 약 **6.12주**로 가장 길게 나타났습니다.
+- **유럽**은 K-콘텐츠가 진입한 국가 수는 많지만 평균 생존 기간은 상대적으로 짧았습니다.
+- 국가·콘텐츠 수준으로 내려가 보면 대륙 평균만으로는 보이지 않는 장기 생존 패턴이 나타납니다.
+- `Squid Game` 등 일부 작품은 다수 국가에서 장기간 순위권을 유지하면서 지역별 생존 구조에 큰 영향을 주었습니다.
+
+위 결과는 해당 프로젝트에서 생성한 요약 데이터와 데이터페이지의 기술적·서술적 분석을 기준으로 정리한 내용입니다.
+
+## Web Page
+
+`index.html`은 프로젝트 최종 결과물인 독립 실행형 데이터페이지입니다.
+
+주요 구현 요소:
+
+- HTML / CSS / JavaScript
+- D3 기반 SVG 데이터 시각화
+- 반응형 레이아웃
+- 스크롤 기반 데이터 스토리텔링
+- 대륙·국가·콘텐츠 수준의 다양한 차트
+- 사용자가 직접 대륙별 지표를 확인할 수 있는 인터랙션
+
+브라우저에서 `index.html`을 열면 별도 서버 없이 결과물을 확인할 수 있습니다.
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── index.html
+├── .gitignore
+└── data/
+    ├── README.md
+    ├── k_content_continent_summary_final.csv
+    ├── k_content_country_level_final.csv
+    ├── k_content_country_summary_final.csv
+    └── k_content_top15_longrun_final.csv
+```
+
+## 프로젝트 정보
+
+- 수행 형태: 데이터시각화 수업 개인 프로젝트
+- 프로젝트 유형: Data Visualization / Data Storytelling
+- 주요 기술: HTML, CSS, JavaScript, D3
+- 원천 자료: Netflix Tudum Top 10 공식 데이터
