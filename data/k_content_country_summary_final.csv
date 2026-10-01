@@ -1,0 +1,95 @@
+country_name,country_iso2,region_group,continent,k_content_count,total_country_weeks,avg_survival_weeks
+Argentina,AR,Non-Asia,Latin America,20,93,3.72
+Australia,AU,Non-Asia,Oceania,19,66,2.869565217391304
+Austria,AT,Non-Asia,Europe,15,60,3.1578947368421053
+Bahamas,BS,Non-Asia,North America,16,49,2.5789473684210527
+Bahrain,BH,Asia,Asia,46,248,4.275862068965517
+Bangladesh,BD,Asia,Asia,50,410,6.9491525423728815
+Belgium,BE,Non-Asia,Europe,13,61,3.588235294117647
+Bolivia,BO,Non-Asia,Latin America,41,288,5.76
+Brazil,BR,Non-Asia,Latin America,32,160,4.102564102564102
+Bulgaria,BG,Non-Asia,Europe,18,95,4.130434782608695
+Canada,CA,Non-Asia,North America,16,56,2.6666666666666665
+Chile,CL,Non-Asia,Latin America,38,177,3.933333333333333
+Colombia,CO,Non-Asia,Latin America,35,172,4.195121951219512
+Costa Rica,CR,Non-Asia,Latin America,30,135,3.857142857142857
+Croatia,HR,Non-Asia,Europe,10,53,4.076923076923077
+Cyprus,CY,Non-Asia,Europe,11,58,3.8666666666666667
+Czech Republic,CZ,Non-Asia,Europe,12,83,4.882352941176471
+Denmark,DK,Non-Asia,Europe,6,45,5.0
+Dominican Republic,DO,Non-Asia,Latin America,35,178,4.238095238095238
+Ecuador,EC,Non-Asia,Latin America,36,187,4.560975609756097
+Egypt,EG,Non-Asia,Africa,30,158,4.514285714285714
+El Salvador,SV,Non-Asia,Latin America,37,206,4.681818181818182
+Estonia,EE,Non-Asia,Europe,12,69,4.3125
+Finland,FI,Non-Asia,Europe,13,70,4.117647058823529
+France,FR,Non-Asia,Europe,18,80,3.4782608695652173
+Germany,DE,Non-Asia,Europe,13,61,3.588235294117647
+Greece,GR,Non-Asia,Europe,22,93,3.4444444444444446
+Guadeloupe,GP,Non-Asia,North America,21,76,3.04
+Guatemala,GT,Non-Asia,Latin America,35,188,4.7
+Honduras,HN,Non-Asia,Latin America,39,214,4.7555555555555555
+Hong Kong,HK,Asia,Asia,58,540,7.297297297297297
+Hungary,HU,Non-Asia,Europe,16,73,3.4761904761904763
+Iceland,IS,Non-Asia,Europe,7,38,3.8
+India,IN,Asia,Asia,43,293,5.528301886792453
+Indonesia,ID,Asia,Asia,60,655,8.618421052631579
+Ireland,IE,Non-Asia,Europe,6,31,3.875
+Israel,IL,Asia,Asia,14,56,3.111111111111111
+Italy,IT,Non-Asia,Europe,13,68,4.0
+Jamaica,JM,Non-Asia,North America,19,67,2.7916666666666665
+Japan,JP,Asia,Asia,55,474,7.074626865671642
+Jordan,JO,Asia,Asia,35,192,4.8
+Kenya,KE,Non-Asia,Africa,24,106,3.6551724137931036
+Kuwait,KW,Asia,Asia,46,264,4.551724137931035
+Latvia,LV,Non-Asia,Europe,10,67,5.153846153846154
+Lebanon,LB,Asia,Asia,20,100,4.166666666666667
+Lithuania,LT,Non-Asia,Europe,15,78,3.9
+Luxembourg,LU,Non-Asia,Europe,15,58,3.0526315789473686
+Malaysia,MY,Asia,Asia,59,574,7.552631578947368
+Maldives,MV,Asia,Asia,49,304,4.983606557377049
+Malta,MT,Non-Asia,Europe,11,44,3.142857142857143
+Martinique,MQ,Non-Asia,North America,26,88,2.838709677419355
+Mauritius,MU,Non-Asia,Africa,28,125,3.4722222222222223
+Mexico,MX,Non-Asia,North America,40,207,4.6
+Morocco,MA,Non-Asia,Africa,40,237,4.74
+Netherlands,NL,Non-Asia,Europe,7,37,3.7
+New Caledonia,NC,Non-Asia,Oceania,29,91,2.5277777777777777
+New Zealand,NZ,Non-Asia,Oceania,20,76,3.1666666666666665
+Nicaragua,NI,Non-Asia,Latin America,39,223,4.8478260869565215
+Nigeria,NG,Non-Asia,Africa,39,280,6.086956521739131
+Norway,NO,Non-Asia,Europe,9,47,3.6153846153846154
+Oman,OM,Asia,Asia,47,261,4.5
+Pakistan,PK,Asia,Asia,34,314,7.476190476190476
+Panama,PA,Non-Asia,Latin America,37,162,3.5217391304347827
+Paraguay,PY,Non-Asia,Latin America,32,160,4.2105263157894735
+Peru,PE,Non-Asia,Latin America,46,286,5.2
+Philippines,PH,Asia,Asia,59,500,6.756756756756757
+Poland,PL,Non-Asia,Europe,14,55,3.0555555555555554
+Portugal,PT,Non-Asia,Europe,24,80,2.857142857142857
+Qatar,QA,Asia,Asia,54,322,4.8059701492537314
+Romania,RO,Non-Asia,Europe,25,108,3.6
+Russia,RU,Non-Asia,Europe,4,26,6.5
+Réunion,RE,Non-Asia,Africa,29,101,2.8055555555555554
+Saudi Arabia,SA,Asia,Asia,51,312,5.032258064516129
+Serbia,RS,Non-Asia,Europe,16,78,3.9
+Singapore,SG,Asia,Asia,58,503,6.797297297297297
+Slovakia,SK,Non-Asia,Europe,12,76,4.470588235294118
+Slovenia,SI,Non-Asia,Europe,10,57,4.384615384615385
+South Africa,ZA,Non-Asia,Africa,13,59,3.6875
+South Korea,KR,Asia,Asia,61,659,8.448717948717949
+Spain,ES,Non-Asia,Europe,16,53,2.65
+Sri Lanka,LK,Asia,Asia,45,262,5.137254901960785
+Sweden,SE,Non-Asia,Europe,9,47,3.9166666666666665
+Switzerland,CH,Non-Asia,Europe,13,57,3.3529411764705883
+Taiwan,TW,Asia,Asia,59,556,7.413333333333333
+Thailand,TH,Asia,Asia,58,588,7.84
+Trinidad and Tobago,TT,Non-Asia,Latin America,18,59,2.4583333333333335
+Turkey,TR,Asia,Europe,29,149,4.138888888888889
+Ukraine,UA,Non-Asia,Europe,6,49,6.125
+United Arab Emirates,AE,Asia,Asia,50,280,4.516129032258065
+United Kingdom,GB,Non-Asia,Europe,8,41,3.727272727272727
+United States,US,Non-Asia,North America,10,49,3.769230769230769
+Uruguay,UY,Non-Asia,Latin America,17,62,2.8181818181818183
+Venezuela,VE,Non-Asia,Latin America,31,152,4.222222222222222
+Vietnam,VN,Asia,Asia,57,633,9.308823529411764
